@@ -26,5 +26,6 @@ Similiar to `uiautomatorviewer`, it could be used to locate GUI elements and get
   * **Save as**: Save the Project in another directory.
   * **Clear**: Clear the all information in the project. If mis-operating, try to restore the project.
   * **Click**: When click an element in the image, we could get its information at the top right.
-* Move and Search
-  *   
+* Move
+* Search
+* Pane
