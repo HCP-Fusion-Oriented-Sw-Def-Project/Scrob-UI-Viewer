@@ -3,6 +3,8 @@
 ######
 An tool to show and record GUI changes for Android apps.
 
+Similiar to `uiautomatorviewer`, it could be used to locate GUI elements and get related GUI information in a screen.
+
 ## Requirement
 
 ######
