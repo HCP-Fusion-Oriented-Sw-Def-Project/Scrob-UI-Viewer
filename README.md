@@ -18,14 +18,14 @@ Similiar to `uiautomatorviewer`, it could be used to locate GUI elements and get
 ## How to Use
 * Basic 
   * **New**: Create a project by a pair of GUI data, which includes images and xml files.
-    * When the project is successfully created, all the leaf elements are displayed in the Visible pane and the recommended element matches are displayed in the Matched pane.
+    * When the project is successfully created, all the leaf elements are displayed in the visible pane and the recommended element matches are displayed in the matched pane.
     * We could move the elements in the panes as we want.
   * **Open**: Open an exist project.
   * **Restore**: Restore the project as it was just opened.
   * **Save**: Save the Project/Save changes.
   * **Save as**: Save the Project in another directory.
   * **Clear**: Clear the all information in the project. If mis-operating, try to restore the project.
-  * **Click**: When click an element in the image, we could get its information at the top right.
+  * **Click**: When clicking an element in the image, we could get its information at the top right.
 * Move
   1. Choose app version.
   2. Choose element type, e.g., leaf/branch.
@@ -46,7 +46,7 @@ Similiar to `uiautomatorviewer`, it could be used to locate GUI elements and get
   * Removed
   * Changed
     * Record the attributes state: 0/1, e.g., 0->no changes, 1->changed.
-    * `Save`: Save the attributes state.
+    * `Save`: Save the attributes state once it has changed.
   * Added
   * Invisible
   * Matched
