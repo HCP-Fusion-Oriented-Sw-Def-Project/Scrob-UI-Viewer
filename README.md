@@ -27,5 +27,42 @@ Similiar to `uiautomatorviewer`, it could be used to locate GUI elements and get
   * **Clear**: Clear the all information in the project. If mis-operating, try to restore the project.
   * **Click**: When click an element in the image, we could get its information at the top right.
 * Move
+  1. Choose app version.
+  2. Choose element type, e.g., leaf/branch.
+  3. Move the element to the panes (visible/removed/changed/added).
 * Search
-* Pane
+  * Search elements in the screen by their attributes (no/bounds/xpath).
+* Panes
+  * Common Operation
+     * `delete`: Delete the element in this pane.
+     * `locate`: Locate the element in the screen.
+     * `refresh`: Update all the panes.
+  * Visible 
+    * `update invisible list`: The elements deleted in this pane will be added to invisible pane.
+    * `mark list elements`: Mark the element as elements in slide list.
+    * `add to removed list`: Add the element to removed pane.
+    * `add to changed list`: Add the element to changed pane.
+    * `add to added list`: Add the element to added pane.
+  * Removed
+  * Changed
+    * Record the attributes state: 0/1, e.g., 0->no changes, 1->changed.
+    * `Save`: Save the attributes state.
+  * Added
+  * Invisible
+  * Matched
+    * `add to changed list`: Add the element to removed pane.
+    * `add locate elements here`: Assure that two elements are selected respectively in the base and updated screens, add them in matched pane.
+    * `update removed and added list`: If the elements in matched pane are considered appropriate, the rest elements in base screen will be added to removed pane, the rest elements in updated screen will be added to added pane.
+  * `Draw all`: Draw all the elements in choosed pane on the corresponding screen.
+* Element Detail
+  * index
+  * class
+  * id
+  * text
+  * desc
+  * width/height
+  * location
+  * No: The element number in the screen according to the order of depth-first traversal.
+  * layer: The level at the GUI hierarchical tree.
+  * type: leaf/branch
+  * clickable
